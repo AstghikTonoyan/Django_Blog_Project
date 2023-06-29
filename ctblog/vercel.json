@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "manage.py", "use": "@ctblog/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/manage.py" }
+    ]
+  }
